@@ -56,31 +56,6 @@ ul li:hover{
 #title:hover{
     background-color: #808080;
 }
-
-#well_image{
-    width: 100%;
-}
-.words{
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
-    width: 65%;
-    color: cornsilk;
-}
-.words a{
-    text-decoration: none;
-    color: #FFFF00;
-}
-.words a:hover{
-    color: #00EDED;
-}
-button{
-    padding: 0;
-    text-align: center;
-    border: none;
-    justify-content: center;
-    height: 48px;
-}
 footer{
     width: 100%;
     color:dodgerblue;
