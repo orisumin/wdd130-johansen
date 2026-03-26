@@ -93,3 +93,9 @@ footer{
 footer p{
     padding: 10px;
 }
+
+#score_list {
+    padding: 20px;
+    color: #FFFF00;
+    list-style-type: none;
+}
