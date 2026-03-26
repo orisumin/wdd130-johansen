@@ -94,7 +94,22 @@ footer p{
     padding: 10px;
 }
 
+/* High Score Stuff */
 #score_list {
-    color: #FFFF00;
+    color: cornsilk;
     list-style-type: none;
+    padding-left: 0px;
+}
+#high_scores {
+    padding-top: 76px;
+}
+h1 {
+    color: #FFFF00;
+}
+#score_list li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
 }
