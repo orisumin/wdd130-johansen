@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="veiwport" content="width=device-width, initial-scale = 1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
     <title>The Wishing Well: Game</title>
     <link rel="stylesheet" href="styles/style-game.css"> 
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.3.1/core.js"></script>
 </head>
 <body>
     <nav>
@@ -16,7 +18,32 @@
         </ul>
     </nav>
     <main>
-        This is johansen's site
+        <!-- <img id="health-img" src="images/heart-icon.png">
+        <p id="health-label">
+        <img id="wish" src="images/logo.png">
+        <img id="sword" src="images/sword-icon.png">
+        <img id="hook" src="images/hook-icon.png">
+        <img id="potions" src="images/health-potion-icon.png">
+        <img id="lost-wish-1" src="images/lost-wish-icon.png">
+        <img id="lost-wish-2" src="images/lost-wish-icon.png"> -->
+        <img id="health-img" src="images/heart-icon.png">
+        <p id="health-label"></p>
+        <img id="wish">
+        <img id="sword">
+        <img id="hook">
+        <img id="potions">
+        <img id="lost-wish-1">
+        <img id="lost-wish-2">
+
+        <img id="room-img">
+        <h2 id="room-txt"></h2>
+        <input type="text" id="txt-input" placeholder="Enter name">
+        <button id="btn1"></button>
+        <button id="btn2"></button>
+        <button id="btn3"></button>
+        <button id="btn4"></button>
+
+
     </main>
     <footer>
         <p id="web">Web Design:</p>
@@ -26,5 +53,6 @@
         <p id="game">Game Design:</p>
         <p id="beck">Beck Johansen</p>
     </footer>
+<script type="py" config="pyscript.json" src="game.py"></script>
 </body>
 </html>
