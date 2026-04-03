@@ -1,6 +1,5 @@
 { 
      "files": {
-        "./map_data.py": "",
-        "./save_data.csv": ""
+        "./map_data.py": ""
   }
 }
